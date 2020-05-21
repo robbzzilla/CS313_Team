@@ -28,7 +28,7 @@
 <?php include 'head.php';?>
 <body>
     <h1>Scripture Resources</h1>
-    <form>
+    <form action="">
         <select>
         <?php
             foreach ($db->query('SELECT DISTINCT book FROM scriptures') as $row)
@@ -37,6 +37,8 @@
             }
         ?>
         </select>
+        <input type="submit">
     </form>
+
 </body>
 </html>
