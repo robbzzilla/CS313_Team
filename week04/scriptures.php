@@ -40,7 +40,3 @@
     </form>
 </body>
 </html>
-
-<select>
-<option value="$row['book']">$row['book']</option>
-</select>
