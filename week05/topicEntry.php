@@ -10,7 +10,7 @@
          <input type="text" id="book" placeholder="Book"><br>
          <input type="text" id="chapter" placeholder="Chapter"><br>
          <input type="text" id="verse" placeholder="Verse"><br>
-         <textarea id="content" placeholder="content"><br>
+         <textarea id="content" placeholder="content"><br></textarea>
          <?php 
             try
             {
@@ -33,7 +33,7 @@
                 die();
             }
          ?>
-         <input type="submit" value="Add to Database" />
+         <input type="submit" value="Add to Database">
       </form>
    </body>
 </html>

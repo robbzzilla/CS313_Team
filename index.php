@@ -4,6 +4,7 @@
 <?php
     include 'header.php';
     echo '<a href="https://group02.herokuapp.com/week05/scriptures.php">Week 05 Teach';
+    echo '<a href="https://group02.herokuapp.com/week05/topicEntry.php">Week 06 Teach';
     include 'footer.php';
 ?>
 </body>
