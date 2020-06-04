@@ -26,7 +26,7 @@ else
     <p>Your username is: <?php $username ?> </p>
 
 
-    <a href = "" > Sign out </a>
+    <a href = "/signout.php" > Sign out </a>
 
 </body>
 
