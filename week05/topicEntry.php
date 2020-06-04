@@ -1,5 +1,5 @@
 <?php
-    require 'dbConnect.php';
+    require '/dbConnect.php';
     $db = get_db();
     ?>
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
          <input type="text" id="book" placeholder="Book"><br>
          <input type="text" id="chapter" placeholder="Chapter"><br>
          <input type="text" id="verse" placeholder="Verse"><br>
-         <textarea id="content" placeholder="content"><br></textarea>
+         <textarea id="content" placeholder="content"></textarea><br>
          <?php 
             try
             {

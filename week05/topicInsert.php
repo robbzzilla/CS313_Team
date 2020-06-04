@@ -1,5 +1,5 @@
 <?php
-require 'dbConnect.php';
+require '/dbConnect.php';
 $db = get_db();
 
 $book = $_POST['book'];

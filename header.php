@@ -1,6 +1,6 @@
 <?php
 echo '<head>';
-echo '<title>03 Prove</title>';
+echo '<title>' . $title . '</title>';
 echo '<meta charset="utf-8">';
 echo '<meta name="viewport" content="width=device-width, initial-scale=1">';
 echo '<link rel="stylesheet" href="style.css">';
