@@ -12,7 +12,7 @@
 
 <h1>Sign up<h1>
 
-<form action="" method="POST">
+<form action="createAccount.php" method="POST">
     
         <input type="text" id="txtUser" name="txtUser" placeholder="Username">
         <label for ="User"> User name </label><br/><br/>
