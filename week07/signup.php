@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <hmtl>
 
-<?php include '/header.php'; ?>
+<?php include_path: '/header.php'; ?>
 
 <body>
 

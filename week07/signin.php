@@ -44,7 +44,7 @@
 <!DOCTYPE html>
 <hmtl>
 
-<?php include '/header.php'; ?>
+<?php include_path: '/header.php'; ?>
 
 <body>
 <?php
@@ -70,8 +70,9 @@
 
 </div>
 
-</body>
-
 <a href="signup.php">Sign up for a new Account</a>
+<?php include '/footer.php';?>
+
+</body>
 
 </html>

@@ -18,7 +18,7 @@ else
 <!DOCTYPE html>
 <hmtl>
 
-<?php include ("/header.php");?>
+<?php include_path: ("/header.php");?>
 
 <body>
     <h3> Welcome to the homepage </h3>

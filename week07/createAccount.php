@@ -14,7 +14,7 @@
 
     $hashPassword = password_hash($password, PASSWORD_DEFAULT);
 
-    require("/dbConnect.php");
+    include_path: ("/dbConnect.php");
     $db =get_db();
 
     $query = "INSERT INTO usr(username, password) VALUES(:username, :password)";
