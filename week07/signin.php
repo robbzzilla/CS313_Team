@@ -8,7 +8,7 @@
         $username = $_POST['txtUser'];
         $password + $_POST['txtPassword'];
 
-        require("/dbConnect.php");
+        include_path:("/dbConnect.php");
         $db = get_db();
 
         $query = 'SELECT password FROM usr WHERE username=:username';
@@ -44,7 +44,7 @@
 <!DOCTYPE html>
 <hmtl>
 
-<?php include_path: '/header.php'; ?>
+<?php include '/header.php'; ?>
 
 <body>
 <?php
