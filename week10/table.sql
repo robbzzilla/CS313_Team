@@ -20,6 +20,6 @@ INSERT INTO person(first_name, last_name, birthday) VALUES
 ('Robert', 'Hampton', '1993-02-08'),
 ('Jose', 'Paz', '1980-06-30');
 
-CREATE USER familyhistoryuser WITH PASSWORD 'group02';
+CREATE USER familyhistoryuser WITH PASSWORD "group02";
 GRANT SELECT, INSERT, UPDATE ON person TO familyhistoryuser;
 GRANT USAGE, SELECT ON SEQUENCE person_id_seq TO familyhistoryuser;
